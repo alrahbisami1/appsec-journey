@@ -1,0 +1,16 @@
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Burp project files (may contain lab data)
+*.burp
