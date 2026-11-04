@@ -13,7 +13,7 @@
 
 | المسار | التقدّم | الملاحظات |
 |---|---|---|
-| PortSwigger — Access Control | **12 / 13** موثّق | اللاب 13 (Referer-based) متبقٍ |
+| PortSwigger — Access Control | **13 / 13** موثّق | مكتمل — جاهز للمراجعة |
 | Secure Code Review | لم يبدأ | الأسبوع 9 |
 | Reports | لم يبدأ | بعد مراجعة الكود |
 
@@ -67,6 +67,6 @@ appsec-journey/
 
 ## الخطوة التالية
 
-- [ ] إكمال لاب 13: Referer-based access control.
-- [ ] مراجعة الـ12 لابًا بدون ملاحظات (اختبار استرجاع).
+- [x] إكمال لاب 13: Referer-based access control.
+- [ ] مراجعة الـ13 لابًا بدون ملاحظات (اختبار استرجاع).
 - [ ] بدء مسار Authentication.

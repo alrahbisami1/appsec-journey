@@ -2,7 +2,7 @@
 
 المصدر: [PortSwigger — Access Control](https://portswigger.net/web-security/access-control)
 
-> **ملاحظة توثيق:** الـ12 ملاحظة كُتبت **بأثر رجعي** اعتمادًا على الحلول القياسية للابات. راجع كل ملاحظة وعدّل أسماء المستخدمين/الطلبات/التفاصيل لتطابق ما فعلته فعليًا — الهدف أن يكون المستودع سجلًا لعملك أنت، وليس نسخة من حلول PortSwigger.
+> **ملاحظة توثيق:** الـ13 ملاحظة كُتبت **بأثر رجعي** اعتمادًا على الحلول القياسية للابات. راجع كل ملاحظة وعدّل أسماء المستخدمين/الطلبات/التفاصيل لتطابق ما فعلته فعليًا — الهدف أن يكون المستودع سجلًا لعملك أنت، وليس نسخة من حلول PortSwigger.
 
 | # | اللاب | المستوى | الملاحظة | الحالة |
 |---|---|---|---|---|
@@ -18,9 +18,9 @@
 | 10 | URL-based access control can be circumvented | Practitioner | [فتح](10-url-based-access-control-can-be-circumvented.md) | ✅ |
 | 11 | Method-based access control can be circumvented | Practitioner | [فتح](11-method-based-access-control-can-be-circumvented.md) | ✅ |
 | 12 | Multi-step process with no access control on one step | Practitioner | [فتح](12-multi-step-process-with-no-access-control-on-one-step.md) | ✅ |
-| 13 | Referer-based access control | Practitioner | — | ⏳ متبقٍ |
+| 13 | Referer-based access control | Practitioner | [فتح](13-referer-based-access-control.md) | ✅ |
 
-**الإجمالي:** 12 / 13
+**الإجمالي:** 13 / 13 — مكتمل
 
 ---
 
@@ -31,7 +31,8 @@
 | Security by obscurity | 01، 02 | الاعتماد على إخفاء المسار بدل التحقق من الصلاحية |
 | بيانات صلاحية يتحكم بها العميل | 03، 04 | الدور/الصلاحية مخزّنة عند العميل أو قابلة للتعديل |
 | IDOR أفقي | 05، 06، 07، 08، 09 | الوصول لكائن بمُعرّف يتحكم به المستخدم دون فحص الملكية |
-| تجاوز على طبقة الـFront-end | 10، 11، 12، 13 | التحقق في طبقة/خطوة/طريقة HTTP واحدة فقط |
+| تجاوز على طبقة الـFront-end | 10، 11، 12 | التحقق في طبقة/خطوة/طريقة HTTP واحدة فقط |
+| الثقة بسياق الطلب | 13 | الاعتماد على هيدر `Referer` بدل فحص دور المستخدم |
 
 ---
 
