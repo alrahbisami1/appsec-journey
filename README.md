@@ -29,6 +29,7 @@ appsec-journey/
 │   ├── 00-template.md              # القالب الموحّد لكل لاب
 │   └── access-control/
 │       ├── README.md               # فهرس لابات Access Control
+│       ├── 00-summary-all-labs.md  # جدول شامل: النوع · الاستغلال · السبب الجذري
 │       ├── 01-unprotected-admin-functionality.md
 │       ├── 02-unprotected-admin-functionality-with-unpredictable-url.md
 │       ├── ...
