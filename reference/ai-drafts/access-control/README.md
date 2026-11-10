@@ -1,4 +1,7 @@
-# Access Control — فهرس اللابات
+# Access Control — فهرس اللابات (مسودة AI)
+
+> ⚠️ **هذا الملف وكل ملفات هذا المجلد مكتوبة بمساعدة AI، وليست من عمل صاحب المستودع.**
+> راجع [الإفصاح](../README.md). عملي الحقيقي في [`notes/access-control/`](../../../notes/access-control/).
 
 المصدر: [PortSwigger — Access Control](https://portswigger.net/web-security/access-control)
 
